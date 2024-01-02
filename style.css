@@ -1,0 +1,36 @@
+.searchbox-container{
+    width:fit-content;
+    margin: auto
+}
+input{
+    border-radius: 5px;
+    border-color: yellowgreen
+}
+button{
+    background-color: yellowgreen;
+    box-shadow: none;
+    color: white;
+    border-style: solid;
+}
+
+.day{
+    border: yellowgreen 3px solid;
+    padding: 25px;
+    text-align: center;
+    width: 30%;
+    margin: 20px;
+}
+.day img{
+    margin: auto;
+    
+}
+.forecast{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+main{
+    height: 100vh
+}
