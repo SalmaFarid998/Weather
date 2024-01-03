@@ -1,36 +1,70 @@
+.dark{
+    background-color: rgb(18, 18, 57);
+    color: white
+}
+
 .searchbox-container{
     width:fit-content;
-    margin: auto
+    margin: auto;
+    margin-top: 50px
 }
 input{
     border-radius: 5px;
-    border-color: yellowgreen
+    border-color: yellowgreen;
+    width: 300px;
+    height:30px;
+    padding: 5px;
 }
 button{
     background-color: yellowgreen;
     box-shadow: none;
     color: white;
     border-style: solid;
+    height:48px;
+    padding: 15px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(118, 158, 39);
+    cursor: pointer;
 }
 
 .day{
     border: yellowgreen 3px solid;
     padding: 25px;
     text-align: center;
-    width: 30%;
+    width: 300px;
     margin: 20px;
+    border-radius: 15px;
 }
 .day img{
     margin: auto;
     
 }
 .forecast{
-    height: 100%;
+    min-height: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     align-content: center;
+    flex-wrap: wrap;
 }
 main{
-    height: 100vh
+    height: 85vh
+}
+
+.temp{
+    font-size: 32px;
+    font-weight: 800;
+}
+.city{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 20px;
+    text-align: center;
+}
+.status{
+    font-size: 22px;
+
 }
