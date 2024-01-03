@@ -11,9 +11,9 @@ execute()
     return new Promise(async function(){
     let city = document.querySelector("#cityinput").value
     if(city !== ""){
-        var response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6c43e0586fa84e79823151555233012&q=${city}&days=3`)
+        var response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6c43e0586fa84e79823151555233012&q=${city}&days=3`)
     }else{
-        var response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=6c43e0586fa84e79823151555233012&q=${latitude},${longitude}&days=3`)
+        var response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=6c43e0586fa84e79823151555233012&q=${latitude},${longitude}&days=3`)
     }
     var response = await response.json()
     let location = response.location
