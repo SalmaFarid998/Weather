@@ -1,0 +1,1 @@
+This webpage displays the weather data and average temperature depending on your location. It fetches the forecast for the next 3 days. You can also search for any city and know what the weather is like over there.
